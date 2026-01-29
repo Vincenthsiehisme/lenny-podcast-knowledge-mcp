@@ -1,0 +1,123 @@
+[
+  {
+    "name": "RICE Prioritization Framework",
+    "description": "RICE is a scoring model that helps product teams prioritize features objectively. It stands for Reach (how many users), Impact (how much it improves their experience), Confidence (how sure you are), and Effort (how long it takes). The formula is (Reach × Impact × Confidence) / Effort.",
+    "application": "Use RICE when you have many features to choose from and need an objective way to compare them. Best for product backlogs, roadmap planning, and quarterly planning sessions.",
+    "steps": [
+      "Estimate Reach: How many users/customers will this impact per time period (e.g., per quarter)?",
+      "Estimate Impact: How much will it improve their experience? Use a scale: 3 = massive, 2 = high, 1 = medium, 0.5 = low, 0.25 = minimal",
+      "Estimate Confidence: How confident are you in your estimates? 100% = high confidence, 80% = medium, 50% = low",
+      "Estimate Effort: How many person-months will this require from your team?",
+      "Calculate RICE Score: (Reach × Impact × Confidence) / Effort",
+      "Sort all features by RICE score to determine priority"
+    ],
+    "examples": [
+      "New onboarding flow: Reach=5000 users, Impact=2, Confidence=80%, Effort=2 months → Score=4000",
+      "Minor UI tweak: Reach=10000, Impact=0.25, Confidence=100%, Effort=0.5 → Score=5000",
+      "Major feature: Reach=2000, Impact=3, Confidence=50%, Effort=4 → Score=750"
+    ],
+    "source": {
+      "guest": "Intercom Team",
+      "episode": "The RICE Scoring Model for Prioritization",
+      "url": "https://www.intercom.com/blog/rice-simple-prioritization-for-product-managers/"
+    }
+  },
+  {
+    "name": "Jobs to be Done (JTBD)",
+    "description": "Jobs to be Done is a framework for understanding customer motivation by focusing on the 'job' customers hire your product to do. It shifts focus from demographics to the circumstances that trigger customers to seek a solution.",
+    "application": "Use JTBD to uncover why customers really buy your product, not just what they buy. Ideal for product positioning, feature development, and marketing messaging.",
+    "steps": [
+      "Identify the functional job: What task are customers trying to accomplish?",
+      "Identify emotional jobs: How do they want to feel while doing this job?",
+      "Identify social jobs: How do they want to be perceived by others?",
+      "Map the customer journey before, during, and after hiring your product",
+      "Understand the 'switch moment' - what pushed them to change from their old solution",
+      "Design your product to fulfill the complete job, not just add features"
+    ],
+    "examples": [
+      "McDonald's milkshake: The job isn't 'drink something tasty' but 'make my boring commute more interesting and keep me full until lunch'",
+      "Uber: The job isn't just 'get from A to B' but 'feel safe, know the price upfront, and avoid awkward interactions'",
+      "Airbnb: The job isn't just 'find a place to stay' but 'experience a city like a local'"
+    ],
+    "source": {
+      "guest": "Bob Moesta",
+      "episode": "The Jobs to be Done Framework",
+      "url": "https://www.youtube.com/watch?v=..."
+    }
+  },
+  {
+    "name": "North Star Metric",
+    "description": "A single metric that best captures the core value your product delivers to customers. It's a leading indicator that predicts future success and aligns the entire company around delivering customer value.",
+    "application": "Use the North Star Metric to align your entire organization around what matters most. Best for companies seeking focus and teams needing a single success metric.",
+    "steps": [
+      "Identify your product's core value proposition: What value do customers get?",
+      "Find a metric that measures when users experience that value",
+      "Ensure it's leading (predicts future revenue), not lagging (measures past results)",
+      "Make it actionable: teams should understand how to move it",
+      "Identify the 2-3 key inputs (actions) that drive the North Star Metric",
+      "Track both the North Star and its inputs religiously"
+    ],
+    "examples": [
+      "Airbnb: Nights booked (measures value for both guests and hosts)",
+      "Spotify: Time spent listening (measures engagement and value delivered)",
+      "Slack: Messages sent by a team (measures active collaboration)",
+      "Medium: Total time reading (measures content value)",
+      "Netflix: Hours of content watched (measures entertainment value)"
+    ],
+    "source": {
+      "guest": "Sean Ellis",
+      "episode": "Finding Your North Star Metric",
+      "url": "https://www.youtube.com/watch?v=..."
+    }
+  },
+  {
+    "name": "40% Rule for Product-Market Fit",
+    "description": "Survey your users with one question: 'How would you feel if you could no longer use this product?' If 40% or more answer 'Very disappointed,' you have product-market fit. This is also called the Superhuman PMF Engine.",
+    "application": "Use this to objectively measure whether you've achieved product-market fit before scaling growth efforts.",
+    "steps": [
+      "Survey your active users with: 'How would you feel if you could no longer use [product]?'",
+      "Options: Very disappointed / Somewhat disappointed / Not disappointed",
+      "Calculate the percentage who said 'Very disappointed'",
+      "If >= 40%: You have PMF, focus on growth",
+      "If 25-40%: You're close, double down on the users who love you",
+      "If < 25%: You don't have PMF yet, focus on product improvements"
+    ],
+    "examples": [
+      "Superhuman reached 58% 'very disappointed' before scaling",
+      "Typical benchmark: 40% is the threshold for PMF",
+      "Use this before investing heavily in growth marketing"
+    ],
+    "source": {
+      "guest": "Rahul Vohra",
+      "episode": "How Superhuman Built for Product-Market Fit",
+      "url": "https://www.youtube.com/watch?v=..."
+    }
+  },
+  {
+    "name": "Kano Model",
+    "description": "A framework for categorizing features based on how they affect customer satisfaction. Features fall into five categories: Must-haves (expected), Performance (more is better), Delighters (unexpected wow), Indifferent (doesn't matter), and Reverse (some like, some hate).",
+    "application": "Use the Kano Model to decide which features to build, especially when prioritizing between 'must-haves' and 'nice-to-haves'.",
+    "steps": [
+      "List potential features to evaluate",
+      "For each feature, ask customers two questions:",
+      "  - How would you feel if we HAD this feature? (Functional)",
+      "  - How would you feel if we DID NOT have this feature? (Dysfunctional)",
+      "Plot responses on the Kano diagram",
+      "Classify each feature: Must-have, Performance, Delighter, Indifferent, or Reverse",
+      "Prioritize: Must-haves first, then Performance, then Delighters",
+      "Note: Delighters become Must-haves over time"
+    ],
+    "examples": [
+      "Must-have: Working search on e-commerce site",
+      "Performance: Faster page load times (more is always better)",
+      "Delighter: Free surprise gift with purchase",
+      "Indifferent: Extra color options for internal dashboard",
+      "Reverse: Automatic music in mobile app (some love, some hate)"
+    ],
+    "source": {
+      "guest": "Teresa Torres",
+      "episode": "Continuous Discovery Habits",
+      "url": "https://www.youtube.com/watch?v=..."
+    }
+  }
+]
