@@ -1,0 +1,185 @@
+[
+  {
+    "topic": "user-research",
+    "practice": "Talk to customers every single week",
+    "context": "The best product teams have weekly customer conversations as a habit, not a project. This continuous discovery helps you stay connected to user needs and catch problems early. Weekly cadence is frequent enough to spot patterns but not so frequent that you burn out.",
+    "source": {
+      "guest": "Teresa Torres",
+      "episode": "Continuous Discovery Habits"
+    },
+    "quotes": [
+      "The best product teams are talking to customers every single week. It's a habit, not a project.",
+      "If you only talk to customers quarterly, you're making decisions based on 3-month-old information."
+    ]
+  },
+  {
+    "topic": "user-research",
+    "practice": "Ask about past behavior, not future intent",
+    "context": "Users are notoriously bad at predicting their future behavior. Instead of asking 'Would you use this feature?', ask 'Tell me about the last time you tried to solve this problem.' Past behavior is the best predictor of future behavior.",
+    "source": {
+      "guest": "Bob Moesta",
+      "episode": "Jobs to be Done Interviews"
+    },
+    "quotes": [
+      "People can't tell you what they'll do in the future, but they can tell you exactly what they did in the past."
+    ]
+  },
+  {
+    "topic": "product-market-fit",
+    "practice": "Focus on retention before growth",
+    "context": "If users aren't sticking around, getting more users won't solve your problem—it will just mask it temporarily. Retention is the foundation; growth is the amplifier. Fix your leaky bucket before pouring more water in.",
+    "source": {
+      "guest": "Brian Balfour",
+      "episode": "Building Growth Teams"
+    },
+    "quotes": [
+      "Retention is the king metric. If you can't retain users, you don't have a business.",
+      "Growth without retention is just a vanity metric that costs you money."
+    ]
+  },
+  {
+    "topic": "product-market-fit",
+    "practice": "Segment your users to find who loves your product",
+    "context": "Not all users are created equal. Some will love your product, some will hate it, most will be indifferent. Use the Superhuman PMF survey to identify who would be 'very disappointed' without your product, then double down on that segment.",
+    "source": {
+      "guest": "Rahul Vohra",
+      "episode": "How Superhuman Built for Product-Market Fit"
+    },
+    "quotes": [
+      "We found that 22% of our users loved us. We asked them what they had in common, then we built for more people like them."
+    ]
+  },
+  {
+    "topic": "prioritization",
+    "practice": "Use opportunity cost thinking for every feature",
+    "context": "Every feature you build means not building something else. Before saying yes to a feature, explicitly identify what you're saying no to. This forces clearer thinking about tradeoffs.",
+    "source": {
+      "guest": "Shreyas Doshi",
+      "episode": "Product Management Frameworks"
+    },
+    "quotes": [
+      "The real cost of any feature is what you're not building instead.",
+      "Saying yes to everything is the same as saying no to your strategy."
+    ]
+  },
+  {
+    "topic": "prioritization",
+    "practice": "Separate strategic bets from incremental improvements",
+    "context": "Don't evaluate a strategic bet (could 10x the business) using the same framework as an incremental improvement (5% conversion increase). Use different mental models for different types of work.",
+    "source": {
+      "guest": "Shreyas Doshi",
+      "episode": "Product Management Frameworks"
+    },
+    "quotes": [
+      "Using RICE for everything is like using a hammer for every problem."
+    ]
+  },
+  {
+    "topic": "hiring",
+    "practice": "Hire for slope, not intercept",
+    "context": "The intercept is where someone is today; the slope is how fast they're learning and growing. A candidate with high slope will eventually outperform someone with high intercept but low slope. Look for learning velocity.",
+    "source": {
+      "guest": "Shreyas Doshi",
+      "episode": "Building Product Teams"
+    },
+    "quotes": [
+      "I'd rather hire someone who's been in the role for 1 year and learned a ton than someone who's been in it for 5 years and learned nothing new."
+    ]
+  },
+  {
+    "topic": "hiring",
+    "practice": "Do thorough reference checks",
+    "context": "Reference checks matter more than interviews. People are good at interviewing; past performance is the best predictor. Call 3-5 references, ask specific questions, and listen for what they don't say.",
+    "source": {
+      "guest": "Lenny Rachitsky",
+      "episode": "How to Hire Your First PM"
+    },
+    "quotes": [
+      "A good reference check will tell you more in 15 minutes than a 5-hour interview loop."
+    ]
+  },
+  {
+    "topic": "growth",
+    "practice": "Focus on one growth channel at a time",
+    "context": "Trying to do everything at once means doing nothing well. Pick one channel, master it, then move to the next. Most successful companies have 1-2 dominant growth channels, not 10 mediocre ones.",
+    "source": {
+      "guest": "Elena Verna",
+      "episode": "Growth Models that Work"
+    },
+    "quotes": [
+      "The companies that win don't have more growth channels, they have deeper mastery of fewer channels."
+    ]
+  },
+  {
+    "topic": "growth",
+    "practice": "Build network effects from day one",
+    "context": "Network effects are the strongest moat in tech. Even if you're small, design your product so it gets better as more people use it. This compounds over time and becomes unbeatable.",
+    "source": {
+      "guest": "Andrew Chen",
+      "episode": "The Cold Start Problem"
+    },
+    "quotes": [
+      "Products with network effects start slow but become unstoppable. Products without them are always fighting for every user."
+    ]
+  },
+  {
+    "topic": "leadership",
+    "practice": "Give feedback immediately, not quarterly",
+    "context": "Waiting for quarterly reviews to give feedback is too slow. Give feedback within 24 hours of observing something—both positive and negative. This creates a culture of continuous improvement.",
+    "source": {
+      "guest": "Julie Zhuo",
+      "episode": "The Making of a Manager"
+    },
+    "quotes": [
+      "The best time to give feedback is right after you notice something. The second best time is today."
+    ]
+  },
+  {
+    "topic": "leadership",
+    "practice": "Write decision memos, not just meeting notes",
+    "context": "After important decisions, write a memo explaining the decision, the reasoning, and what you're optimizing for. This creates accountability and helps future teams understand why decisions were made.",
+    "source": {
+      "guest": "Brian Chesky",
+      "episode": "How Airbnb Builds Product"
+    },
+    "quotes": [
+      "We write down every important decision so that in 6 months we remember why we decided that."
+    ]
+  },
+  {
+    "topic": "metrics",
+    "practice": "Choose leading indicators over lagging indicators",
+    "context": "Lagging indicators (revenue, signups) tell you what already happened. Leading indicators (activation, engagement) tell you what's about to happen. Optimize for leading indicators to be proactive.",
+    "source": {
+      "guest": "Casey Winters",
+      "episode": "Product-Led Growth Metrics"
+    },
+    "quotes": [
+      "Revenue is a lagging indicator. By the time it drops, you're already in trouble. Watch the leading indicators."
+    ]
+  },
+  {
+    "topic": "pricing",
+    "practice": "Talk to customers about value, not price",
+    "context": "Don't ask 'What would you pay for this?' Ask 'What would you be able to do with this? What does that save you?' Then price based on the value you create, not your costs.",
+    "source": {
+      "guest": "Patrick Campbell",
+      "episode": "Pricing Strategy"
+    },
+    "quotes": [
+      "Customers will tell you the value if you ask the right questions. Then price at 10-20% of that value."
+    ]
+  },
+  {
+    "topic": "onboarding",
+    "practice": "Get users to the 'aha moment' as fast as possible",
+    "context": "The faster users experience your core value, the more likely they'll stick around. Remove every unnecessary step between signup and that first moment of value.",
+    "source": {
+      "guest": "Chamath Palihapitiya",
+      "episode": "Growth at Facebook"
+    },
+    "quotes": [
+      "At Facebook, we knew that if we got users to 7 friends in 10 days, they'd stick around. So we optimized the entire onboarding for that."
+    ]
+  }
+]
