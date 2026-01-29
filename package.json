@@ -1,0 +1,40 @@
+{
+  "name": "lenny-knowledge-mcp",
+  "version": "1.0.0",
+  "description": "MCP server providing structured product management knowledge extracted from Lenny's Podcast",
+  "type": "module",
+  "bin": {
+    "lenny-knowledge": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "extract": "tsx scripts/extract-knowledge.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "lenny",
+    "product-management",
+    "knowledge-base",
+    "frameworks",
+    "best-practices"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
